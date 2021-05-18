@@ -1,0 +1,68 @@
+#deposit {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+#deposit .main-side {
+  height: 100%;
+  width: 70%;
+  background: var(--pink);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#deposit form {
+  display: flex;
+  flex-direction: column;
+}
+#deposit h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+#deposit form input {
+  height: 60px;
+  margin: 10px;
+  border-radius: 3rem;
+  outline: none;
+  border: none;
+  padding: 15px;
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#deposit button {
+  background: var(--darkPurple);
+  cursor: pointer;
+  color: #fff;
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#deposit .image-side {
+  height: 100%;
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#deposit .image-side #logo {
+  width: 35rem;
+  margin: 5rem 2rem;
+}
+
+#deposit .image-side h2 {
+  width: 40rem;
+  font-size: 4rem;
+  text-align: center;
+  color: #545454;
+}

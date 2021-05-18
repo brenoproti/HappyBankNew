@@ -1,0 +1,106 @@
+#login {
+  display: flex;
+  height: 100%;
+  width: 100vw;
+}
+
+/* Login Side */
+
+#welcome {
+  color: #fff;
+  font-size: 7rem;
+}
+
+#form-side {
+  width: 50%;
+  background-color: var(--pink);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#form-side form {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#login form input,
+button {
+  width: 500px;
+  height: 70px;
+  border: none;
+  outline: none;
+  border-radius: 4rem;
+}
+
+#login input {
+  padding: 3rem;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#login button {
+  background: var(--darkPurple);
+  color: #fff;
+  cursor: pointer;
+  font-size: 32px;
+
+  margin-top: 50px;
+
+  transition: background-color 250ms ease;
+}
+
+button:hover {
+  background: var(--hover-darkPurple);
+}
+
+#login a {
+  text-decoration: none;
+  color: #0b0928;
+  font-weight: bold;
+  display: block;
+  margin-left: 37rem;
+  font-size: 2.2rem;
+}
+
+#login .back-link {
+  margin-left: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Draw Side */
+
+#draw-side {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.draw {
+  display: block;
+  width: 60rem;
+}
+
+.logo {
+  display: block;
+  width: 25rem;
+}
+
+@media (max-width: 960px) {
+  #draw-side {
+    display: none;
+  }
+  #form-side {
+    width: 100%;
+  }
+}
